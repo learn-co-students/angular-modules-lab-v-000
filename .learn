@@ -1,4 +1,4 @@
-tags: 
+tags:
   - angular
   - submodules
   - getter
@@ -7,5 +7,5 @@ languages:
   - javascript
 frameworks:
   - angular
-resources: 
+resources:
   - 0
