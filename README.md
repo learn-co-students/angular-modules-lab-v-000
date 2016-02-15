@@ -9,25 +9,12 @@
 
 ## Instructions
 
-Setup your directory structure as follows:
-
-- js/
-  - app/
-    - controllers/
-      - MainController.js
-    - app.js
-  - angular.js
-  - angular-route.js
-- index.html
-
-You can find `index.html`, `angular.js`, `angular-route.js` in this repo.
+Copy the file structure given to you in this repo.
 
 In this lab you'll create a module in Angular named `app`. Do this in our `app.js` file.
 
 You'll then need to create our `MainController` controller. Do this in `MainController.js`, and attach it to our module named `app`.
 
-Check `index.html` and notice how you'll see `Hello, {{ name }}!`. This means our module isn't rendering - using the `ng-app` attribute, bootstrap it to the HTML element with the class `app`.
+Check `index.html` and notice how you'll see `Hello, {{ name }}!`. This means our module isn't rendering - using the `ng-app` attribute, bootstrap it to the HTML element with the class `app`. Refresh the page - oh wait, we don't see anything! We need to attach a value to the `name` property on our `$scope` (make sure you set `$scope` as the first argument in the controller!).
 
-Once that works, remove the `ng-app` attribute and instead, inside `app.js`, use `angular.bootstrap` to render it into our HTML element with the class `app`.
-
-Our module has a sub-module dependency for `ngRoute` (defined in the `angular-route.js` file in this repo. Add this dependency to the module. 
+Our module has a sub-module dependency for `ngRoute` (defined in the `angular-route.js` file in this repo. Add this dependency to the module. We won't see anything different, but if done correctly we won't get any errors! We will actually use the module later on.
