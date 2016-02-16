@@ -9,7 +9,7 @@
 
 ## Instructions
 
-Copy the file structure given to you in this repo.
+Fork and clone this directory to get started.
 
 In this lab you'll create a module in Angular named `app`. Do this in our `app.js` file.
 
