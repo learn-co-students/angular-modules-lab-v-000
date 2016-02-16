@@ -1,6 +1,11 @@
 tags:
-  - a tag
+  - angular
+  - submodules
+  - getter
+  - setter
 languages:
-  - a language
-resources: 
+  - javascript
+frameworks:
+  - angular
+resources:
   - 0
