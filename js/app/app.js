@@ -1,4 +1,2 @@
 angular
-  .module('app', [])
-  .controller('MainContoller')
-  .route('ngroute')
+  .module('app', ['ngroute'])
