@@ -1,6 +1,6 @@
 function MainController($scope) {
-	$scope.name = "Jenya";
+  $scope.name = "Jenya";
 }
 angular.
-	module("app").
-		controller("MainController", MainController);
+  module("app").
+  controller("MainController", MainController);
