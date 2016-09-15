@@ -1,5 +1,6 @@
-function MainController($scope) {
-  $scope.name = 'Antonio';  
+function MainController() {
+  var vm = this;
+  vm.name = 'Antonio';  
 }
 
 // attach controller to existing module 'app'
