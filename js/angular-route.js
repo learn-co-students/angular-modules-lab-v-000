@@ -13,3 +13,6 @@ e,v,b)})}function n(){var a,b;d.forEach(g,function(f,g){var q;if(q=!b){var h=c.p
 g=f[1];c.push(b[g]);c.push(f[2]||"");delete b[g]}});return c.join("")}var x=!1,p,w,t={routes:g,reload:function(){x=!0;a.$evalAsync(function(){l();m()})},updateParams:function(a){if(this.current&&this.current.$$route)a=d.extend({},this.current.params,a),c.path(u(this.current.$$route.originalPath,a)),c.search(a);else throw B("norout");}};a.$on("$locationChangeStart",l);a.$on("$locationChangeSuccess",m);return t}]});var B=d.$$minErr("ngRoute");r.provider("$routeParams",function(){this.$get=function(){return{}}});
 r.directive("ngView",w);r.directive("ngView",A);w.$inject=["$route","$anchorScroll","$animate"];A.$inject=["$compile","$controller","$route"]})(window,window.angular);
 //# sourceMappingURL=angular-route.min.js.map
+
+angular
+  .module('appModule', ['ngRoute'])
