@@ -3,5 +3,5 @@ function MainController($scope){
 }
 
 angular
-  .module('app', ['ngRoute'])
+  .module('app')
   .controller('MainController', MainController);
