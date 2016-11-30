@@ -3,5 +3,5 @@ function MainController($scope) {
 }
 
 angular
-  .module('app')
-  .controller('MainController', MainController);
+  .module('app') // fetch the module
+  .controller('MainController', MainController); // create the controller
