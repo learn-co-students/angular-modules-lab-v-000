@@ -1,7 +1,7 @@
 function MainController($scope) {
-  $scope.name = "Dom";
+  $scope.name = "Karuna";
 }
 
 angular
-  .module('app', [])
+  .module('app')
   .controller('MainController', MainController);
