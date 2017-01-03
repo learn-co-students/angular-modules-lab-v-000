@@ -3,5 +3,5 @@ function MainController($scope) {
 }
 
 angular
-  .module('app') // fetch the module
+  .module('app')
   .controller('MainController', MainController);
