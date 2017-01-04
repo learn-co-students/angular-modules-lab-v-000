@@ -5,16 +5,16 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Angular Application</title>
+    <script src="js/angular.js"></script>
 </head>
 <body>
 
-    <div>
+  <div ng-cloak ng-app="app">
         <div ng-controller="MainController">
             Hello, {{ name }}!
         </div>
     </div>
 
-    <script src="js/angular.js"></script>
     <script src="js/angular-route.js"></script>
     <script src="js/app/app.js"></script>
     <script src="js/app/controllers/MainController.js"></script>
